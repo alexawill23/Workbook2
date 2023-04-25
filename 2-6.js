@@ -19,3 +19,9 @@ var costOfLimo = 300;
 var numberOfPromGoers = 2;
 var costPerPerson = costOfLimo / numberOfPromGoers;
 console.log (costPerPerson);
+
+var num 63;
+if (num% 2 == 0)
+[
+    console.log ("the number"')
+]
