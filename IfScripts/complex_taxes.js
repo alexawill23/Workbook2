@@ -17,7 +17,7 @@ else if (annual_income <=74999); {
     taxrate = .15 
 }
 else if (annual_income <= 75000); {
-    taxrate = .2
+    taxrate = .2s
 }
 else {
     taxrate = .25
