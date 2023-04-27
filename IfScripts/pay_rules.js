@@ -9,9 +9,9 @@ var regular_hoursworked=40;
 let grosspay; 
 if (hoursworked <= regular_hoursworked) {
 //If the total hours worked in less than or equal to the regular hours (40 hours) 
+var gross_pay=(payrate*hoursworkerd)} 
 
-
-var gross_pay=(payrate*hoursworkerd)} else{ //If the hours worked are greater than regular hours (over 40 hours) 
+else{ //If the hours worked are greater than regular hours (over 40 hours) 
 //If there is overtime
 var overtime_hours=(hoursworked-regular_hoursworked);
 var gross_payOT=(payRate*regular_hoursworked)+(payRate*overtime_hours*overtimeRate);}
