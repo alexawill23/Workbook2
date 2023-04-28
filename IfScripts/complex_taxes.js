@@ -17,7 +17,7 @@ else if (annual_income <=74999); {
     taxrate = .15 
 }
 else if (annual_income <= 75000); {
-    taxrate = .2s
+    taxrate = .20
 }
 else {
     taxrate = .25
@@ -26,18 +26,18 @@ else {
 
 //filing Jointly
 if (annual_income => 12000); {
+    taxrate = .0
+} else if (annual_income <= 24999); {
     taxrate = .06
 }
-else if (annual_income <= 24999); {
+else if (annual_income <=74999); {
     taxrate = .11
 }
-else if (annual_income <=74999); {
+else if (annual_income <= 75000); {
     taxrate = .20
 }
-else if (annual_income <= 75000); {
-    taxrate = .2
-}
 else {
-    taxrate = .25
+    taxrate = .32
 }
 
+console.log("You worked " + hoursWorked); 
