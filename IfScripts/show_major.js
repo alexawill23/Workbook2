@@ -1,6 +1,6 @@
 "use strict"; 
 const studentName = "Ashley Tisdale"; 
-const studentMajor = "HIST"
+const studentMajor = "MKT"
  
 //Majors 
 let Major, Advising_Location; 
