@@ -18,7 +18,7 @@ function greetBtnClicked(){
     console.log("hello from inside of the greetBtnClicked() function!"); 
     let username = nameField.value; 
     alert(username); 
-    greeting.innerHTML = `Hello to ${username} from inside the ongreetBtnClicked`
+    greeting.innerHTML = `Hello ${username}`
 }
 
 console.log("the index.js has finished executing...");
